@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "ef7cf415-f6ca-484e-bad4-3cb6280c9dde",
+		"name": "code_challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/v1/explorers/node",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/explorers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"explorers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/explorersCertification",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/explorersCertification",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"explorersCertification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v1/explorers/credits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/explorers/credits",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"explorers",
+						"credits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
