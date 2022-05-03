@@ -15,3 +15,13 @@ graph TD;
     ExplorerService-->ExplorerController
     ExplorerController-->Server
 ```
+
+## La api implementada en el proyecto contiene los siguientes endpoints
+
+
+| Endpoint | Request | Response |
+|---|---|---|
+|/v1/explorers|localhost:3000/v1/explorers|Se obtienen todos los explorers con todas sus propiedades|
+|/v1/explorersCertification|localhost:3000/v1/explorersCertification| Se obtienen los correos de todos los explorers que tengas certificación|
+|/v1/explorers/credits|localhost:3000//v1/explorers/credits|Se obtienen los explorers con todas sus propiedades que tengan mas de 500 créditos|
+
